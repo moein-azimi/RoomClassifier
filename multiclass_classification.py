@@ -12,6 +12,7 @@ from tensorflow.python.keras.optimizers import Adam
 from tensorflow.python.keras.utils import to_categorical, Sequence
 from tensorflow.python.keras.callbacks import ModelCheckpoint
 from tensorflow.python.keras import backend as K
+import matplotlib.pyplot as plt
 
 
 
