@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import librosa
+import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn import datasets, svm, metrics
 import tensorflow as tf
