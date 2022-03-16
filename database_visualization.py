@@ -9,7 +9,7 @@ x = [path+item  for item in os.listdir(path) if item.endswith('.wav')]
 y = [item.split('_')[1] for item in os.listdir(path) if item.endswith('.wav')]
 # A dataframe to be built here: 
 df = pd.DataFrame(y,columns=["room"])
-# Countin the number of samples
+# Counting the number of samples
 df = df.value_counts().rename_axis('Room').reset_index(name='Count')
 plt.figure()
 plt.barh(df['Room'],df['Count'],color=['black', 'red', 'green', 'blue', 'cyan','gray'])
