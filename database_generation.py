@@ -3,7 +3,7 @@ from pydub.utils import make_chunks
 import os
 
 '''
-The first step is to split the samples: The original files can be downloaded from 
+The first step is to split the samples into segmented chunks: The original files can be downloaded from 
 http://www.ee.ic.ac.uk/naylor/ACEweb/index.html
 '''
 
